@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeraSoft", "VeraSoft\VeraSoft.csproj", "{7846F746-6306-4F6B-AA0D-B3499FF69737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D11FF545-FA2E-4D82-A879-F9796EC49D4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{19F9F5D7-D7F8-4A5E-94A3-FD623A98038F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeraSoft.Wpf", "Core\VeraSoft.Wpf\VeraSoft.Wpf.csproj", "{7D1CBA06-0CAD-4197-A8CA-1DBAF3B11695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeraSoft.Resources", "Core\VeraSoft.Resources\VeraSoft.Resources.csproj", "{3000D788-DB71-447C-B25B-B7CAAE24C6B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{27F07A36-C1CF-42ED-852F-346AA54BCD04}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VerasoftSetup", "Installer\VerasoftSetup\VerasoftSetup.vdproj", "{64A55482-459B-4958-8B0F-817247D481CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahApps.Metro", "Core\MahApps.Metro\MahApps.Metro.csproj", "{0F1967BF-92F8-4C3E-85C2-E663E5212E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53E574E8-65B7-4ACA-879D-583D8A6686F2}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.Props = Directory.Build.Props
+		Directory.Build.Targets = Directory.Build.Targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7846F746-6306-4F6B-AA0D-B3499FF69737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7846F746-6306-4F6B-AA0D-B3499FF69737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7846F746-6306-4F6B-AA0D-B3499FF69737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7846F746-6306-4F6B-AA0D-B3499FF69737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1CBA06-0CAD-4197-A8CA-1DBAF3B11695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1CBA06-0CAD-4197-A8CA-1DBAF3B11695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1CBA06-0CAD-4197-A8CA-1DBAF3B11695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1CBA06-0CAD-4197-A8CA-1DBAF3B11695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3000D788-DB71-447C-B25B-B7CAAE24C6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3000D788-DB71-447C-B25B-B7CAAE24C6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3000D788-DB71-447C-B25B-B7CAAE24C6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3000D788-DB71-447C-B25B-B7CAAE24C6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A55482-459B-4958-8B0F-817247D481CF}.Debug|Any CPU.ActiveCfg = Debug
+		{64A55482-459B-4958-8B0F-817247D481CF}.Release|Any CPU.ActiveCfg = Release
+		{0F1967BF-92F8-4C3E-85C2-E663E5212E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1967BF-92F8-4C3E-85C2-E663E5212E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1967BF-92F8-4C3E-85C2-E663E5212E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1967BF-92F8-4C3E-85C2-E663E5212E36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D1CBA06-0CAD-4197-A8CA-1DBAF3B11695} = {19F9F5D7-D7F8-4A5E-94A3-FD623A98038F}
+		{3000D788-DB71-447C-B25B-B7CAAE24C6B3} = {19F9F5D7-D7F8-4A5E-94A3-FD623A98038F}
+		{64A55482-459B-4958-8B0F-817247D481CF} = {27F07A36-C1CF-42ED-852F-346AA54BCD04}
+		{0F1967BF-92F8-4C3E-85C2-E663E5212E36} = {19F9F5D7-D7F8-4A5E-94A3-FD623A98038F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_NeutralResourcesLanguage = en-GB
+		SolutionGuid = {659FD349-35C3-4A5A-8CA2-DD912FF583A4}
+	EndGlobalSection
+EndGlobal

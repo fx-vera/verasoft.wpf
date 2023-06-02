@@ -1,0 +1,17 @@
+Pay special attention to high visibility icons,such as main application icons, file icons that can appear in Windows Explorer, and icons appearing in the Start Menu or on the desktop.
+Application icons and Control Panel items: The full set includes 16x16, 32x32, 48x48, and 256x256 (code scales between 32 and 256). The .ico file format is required. For Classic Mode, the full set is 16x16, 24x24, 32x32, 48x48 and 64x64.
+List item icon options: Use live thumbnails or file icons of the file type (for example, .doc); full set.
+Toolbar icons: 16x16, 24x24, 32x32. Note that toolbar icons are always flat, not 3D, even at the 32x32 size.
+Dialog and wizard icons: 32x32 and 48x48.
+Overlays: Core shell code (for example, a shortcut) 10x10 (for 16x16), 16x16 (for 32x32), 24x24 (for 48x48), 128x128 (for 256x256). Note that some of these are slightly smaller but are close to this size, depending on shape and optical balance.
+Quick Launch area: Icons will scale down from 48x48 in Alt+Tab dynamic overlays, but for a more crisp version, add a 40x40 to .ico file.
+Balloon icons: 32x32 and 40x40.
+Additional sizes: These are useful to have on hand as resources to make other files (for example, annotations, toolbar strips, overlays, high dpi, and special cases): 128x128, 96x96, 64x64, 40x40, 24x24, 22x22, 14x14, 10x10, and 8x8. You can use .ico, .png, .bmp, or other file formats, depending on code in that area.
+
+
+
+
+https://social.msdn.microsoft.com/Forums/en-US/7344372c-44fe-49cc-88d3-e91506dcab2b/wpf-applikation-right-way-for-icon-and-size-of-icon?forum=wpf
+
+
+https://docs.microsoft.com/zh-cn/windows/win32/uxguide/vis-icons

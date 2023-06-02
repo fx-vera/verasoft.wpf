@@ -1,0 +1,10 @@
+Constructor de aplicaciones que te permite crear directamente una aplicaciones WPF
+Siempre se puede ampliar.
+De base te ofrece una arquitectura y carga de bbdd, recursos, plugins por MEF, configuraciones, etc
+
+Configuración de la aplicación:
+	1.	Menús
+	2.	Plugins
+	3.	Notification Manager
+	3.	Perfil de usuario
+	

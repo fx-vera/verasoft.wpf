@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PhotosManagementConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PhotoTypes>jpg;jpeg;png;gif;svg;bmp;tif;tiff;eps;raw;heic,nef</PhotoTypes>
+  <VideoTypes>avi;mp4</VideoTypes>
+  <MusicTypes>mp3</MusicTypes>
+  <DocumentTypes>doc;docx;pdf;excel</DocumentTypes>
+</PhotosManagementConfig>

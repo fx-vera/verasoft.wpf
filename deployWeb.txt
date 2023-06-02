@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+	<publishPRofile
+		publishUrl="https://WIN-asd/msdeploy.axd"
+		msdeploySite="Default Web Site"
+		destinationAppUrl="htt://asdsa"
+		mySQLDBConnectionString=""
+		SQLServerDBConnectionString=""
+		profileName="Default Settings"
+		publishMethod="MSDeploy"
+		userName="WIN-\Administrator" />
+</publishData>		

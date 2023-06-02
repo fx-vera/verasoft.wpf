@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DatabaseConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- PostgreSQL DB region. Uncomment to use, comment MySQL DB region. -->
+  <Connection>Host=localhost;Database=MyDatabase;Username=myuser;Password=mypassword;</Connection>
+  <Model>MyEntities</Model>
+  <Provider>Npgsql</Provider>
+</DatabaseConfig>

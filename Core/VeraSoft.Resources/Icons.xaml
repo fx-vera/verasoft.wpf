@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--    Folder: Icons/    -->
+    <ImageSource x:Key="camera">/VeraSoft.Resources;component/Icons/camera.png</ImageSource>
+    <ImageSource x:Key="delete">/VeraSoft.Resources;component/Icons/delete.png</ImageSource>
+    <ImageSource x:Key="folder">/VeraSoft.Resources;component/Icons/folder.png</ImageSource>
+    <ImageSource x:Key="help">/VeraSoft.Resources;component/Icons/help.png</ImageSource>
+    <ImageSource x:Key="micro_off">/VeraSoft.Resources;component/Icons/micro_off.png</ImageSource>
+    <ImageSource x:Key="micro_on">/VeraSoft.Resources;component/Icons/micro_on.png</ImageSource>
+    <ImageSource x:Key="move_arrow_cross">/VeraSoft.Resources;component/Icons/move_arrow_cross.png</ImageSource>
+    <ImageSource x:Key="notification">/VeraSoft.Resources;component/Icons/notification.png</ImageSource>
+    <ImageSource x:Key="ok">/VeraSoft.Resources;component/Icons/ok.png</ImageSource>
+    <ImageSource x:Key="overwrite">/VeraSoft.Resources;component/Icons/overwrite.png</ImageSource>
+    <ImageSource x:Key="pause">/VeraSoft.Resources;component/Icons/pause.png</ImageSource>
+    <ImageSource x:Key="pinmap256">/VeraSoft.Resources;component/Icons/pinmap256.png</ImageSource>
+    <ImageSource x:Key="play">/VeraSoft.Resources;component/Icons/play.png</ImageSource>
+    <ImageSource x:Key="plus">/VeraSoft.Resources;component/Icons/plus.png</ImageSource>
+    <ImageSource x:Key="print">/VeraSoft.Resources;component/Icons/print.png</ImageSource>
+    <ImageSource x:Key="profile">/VeraSoft.Resources;component/Icons/profile.png</ImageSource>
+    <ImageSource x:Key="rec">/VeraSoft.Resources;component/Icons/rec.png</ImageSource>
+    <ImageSource x:Key="retry">/VeraSoft.Resources;component/Icons/retry.png</ImageSource>
+    <ImageSource x:Key="save">/VeraSoft.Resources;component/Icons/save.png</ImageSource>
+    <ImageSource x:Key="settings_32">/VeraSoft.Resources;component/Icons/settings_32.png</ImageSource>
+    <ImageSource x:Key="slide_right_left">/VeraSoft.Resources;component/Icons/slide_right_left.png</ImageSource>
+    <ImageSource x:Key="stop">/VeraSoft.Resources;component/Icons/stop.png</ImageSource>
+    <ImageSource x:Key="warning1">/VeraSoft.Resources;component/Icons/warning1.png</ImageSource>
+    <ImageSource x:Key="warning2">/VeraSoft.Resources;component/Icons/warning2.png</ImageSource>
+    <ImageSource x:Key="logoFXVC85">/VeraSoft.Resources;component/Icons/logoFXVC85.bmp</ImageSource>
+    <ImageSource x:Key="logoFXVC128">/VeraSoft.Resources;component/Icons/logoFXVC128.ico</ImageSource>
+</ResourceDictionary>
