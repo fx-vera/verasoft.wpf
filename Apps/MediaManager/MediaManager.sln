@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeraSoft.AWS", "..\..\Core\
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MediaManagerSoft", "MediaManagerSoft\MediaManagerSoft.vdproj", "{BFB76E68-543B-4972-B65B-3E6AD9B2E206}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.Plugins.CountDown", "Plugins\MediaManager.Plugins.CountDown\MediaManager.Plugins.CountDown.csproj", "{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +100,14 @@ Global
 		{BFB76E68-543B-4972-B65B-3E6AD9B2E206}.Debug|x86.ActiveCfg = Debug
 		{BFB76E68-543B-4972-B65B-3E6AD9B2E206}.Release|Any CPU.ActiveCfg = Release
 		{BFB76E68-543B-4972-B65B-3E6AD9B2E206}.Release|x86.ActiveCfg = Release
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Debug|x86.Build.0 = Debug|Any CPU
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Release|x86.ActiveCfg = Release|Any CPU
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +119,7 @@ Global
 		{C4772038-C761-4155-8DB2-7972F857E1AE} = {6084C16C-0300-44A8-86FB-6C765911B3F2}
 		{85823145-CE6D-411D-BC32-EAEB9402C603} = {6084C16C-0300-44A8-86FB-6C765911B3F2}
 		{C371A6DC-978E-44AF-9E81-D87AB61D86F5} = {10704D9A-D29A-4BFE-96A1-45883D334EF7}
+		{8BC17385-6949-4DA1-BCF2-70E97CDEB53B} = {6084C16C-0300-44A8-86FB-6C765911B3F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {220B2A9C-9390-423E-AD98-C8C7417B4DE6}
