@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MediaManager.Plugins.CountDown" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Duration" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">00:00:00</Value>
+    </Setting>
+    <Setting Name="InitialDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2022-06-18</Value>
+    </Setting>
+    <Setting Name="FinalDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2000-01-01</Value>
+    </Setting>
+    <Setting Name="Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cuánto falta para...</Value>
+    </Setting>
+    <Setting Name="Description" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mi jubilación</Value>
+    </Setting>
+    <Setting Name="Years" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
